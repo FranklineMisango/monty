@@ -51,8 +51,8 @@ int main(int argc, char const *argv[])
 		free(line);
 		line_number++;
 	}
+free_stack(stack);
+free_lines(lines);
 
-	free_stack(stack);
-	free_lines(lines);
-	return (0);
+return (0);
 }
