@@ -6,8 +6,8 @@
  *
  * Return: function pointer corresponding to operator given
  *
-int (*get_op_func(char *s))(int)
-*/
+ */
+
 void (*get_op_func(char *s))(stack_t**, unsigned int)
 {
 	instruction_t ops[] = {
