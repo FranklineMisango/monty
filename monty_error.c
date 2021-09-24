@@ -1,5 +1,12 @@
 #include "monty.h"
 
+/**
+ * monty_error - to deal with errors in File I/O
+ * standard output
+ * @monty: file name
+ * Return:  void
+ */
+
 void monty_error(monty_t *monty)
 {
 switch (monty->error) 
